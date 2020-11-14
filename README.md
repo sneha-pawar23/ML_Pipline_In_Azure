@@ -19,6 +19,8 @@ The dataset describes about the marketing campagins for a bank, which consists o
 
 ### **Solution for the problem statement**
 
+![azure_pipeline]("azure_pipeline.png")
+
 ## Scikit-learn Pipeline
 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**

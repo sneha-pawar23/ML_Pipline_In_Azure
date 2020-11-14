@@ -17,7 +17,7 @@ The dataset describes about the marketing campagins for a bank, which consists o
 - Other (**attributes** :- campaign, Pdays, previous, poutcome)
   - **y** is the desired target, where we need to know whether client subscribed the term deposit or not (**yes** or **no**) . The dataset contains 32950 training data in CSV file and its a classification problem.
 
-**In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
+### **Solution for the problem statement**
 
 ## Scikit-learn Pipeline
 

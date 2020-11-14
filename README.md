@@ -19,7 +19,11 @@ The dataset describes about the marketing campagins for a bank, which consists o
 
 ### **Solution for the problem statement**
 
-![azure_pipeline]("azure_pipeline.png")
+![Optimizing_ML_Pipeline](azure_pipeline.png)
+The above figure describes how to perform the problem statement in an effective way, there are two ways of approaching the problem:-
+
+- To optimize the hyper parameter of custom coded model using a tool called **HyperDrive**. HyperDrive will help us to find the best parameter to the model compared to manual Hyperparameter tuning.
+- **AutoML** which helps us to choose the best algorithm, which evaluates the different pipelines on its own and help us to find the best optimal solution in a faster way.
 
 ## Scikit-learn Pipeline
 

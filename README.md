@@ -25,9 +25,11 @@ The above figure describes how to perform the problem statement in an effective 
 - To optimize the hyper parameter of custom coded model using a tool called **HyperDrive**. HyperDrive will help us to find the best parameter to the model compared to manual Hyperparameter tuning.
 - **AutoML** which helps us to choose the best algorithm, which evaluates the different pipelines on its own and help us to find the best optimal solution in a faster way.
 
-## Scikit-learn Pipeline
+# Scikit-learn Pipeline
 
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
+
+- Algorithm
 
 **What are the benefits of the parameter sampler you chose?**
 

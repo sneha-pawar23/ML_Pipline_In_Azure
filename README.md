@@ -31,6 +31,8 @@ The above figure describes how to perform the problem statement in an effective 
 
 - Algorithm
 
+  Logistic Regression is a binary classification algorithm in which dependent variable is binary i,e 1(True,Sucess),0(False,Failure).Goal is to find the best fitting model for independent and dependent variable in the relatonship.Independent variable can be continous or binary,also called as **logit regression**,used in machine learning,deals with probability to measure the relation between dependent and independent variables.
+
 **What are the benefits of the parameter sampler you chose?**
 
 **What are the benefits of the early stopping policy you chose?**

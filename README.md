@@ -45,7 +45,15 @@ The above figure describes how to perform the problem statement in an effective 
 
 - **Select a sampling method** :- **RandomParameter Sampling** is used to randomly select a value for each hyperparameter, which can be a mix of discrete and continuous values.Here in code we need to search for parameter like "\__C" and "_ \_max_iter"
 - **PrimaryMetric Goal** :- It is used to determine whether a higher value for a metric is better or worse. In this experiment primary metric is **accuracy**.We can maximize or minimize for betterment of model.
--
+- **Estimators** :- estimators will be called with sampled hyperparameter.sklearn creates an estimator.It helps to simply the tasks of specifying how a script is executed.
+
+* The maximum total number of runs to craete and the maximum numbers of runs to execute concurrently.(**Note** :- If none, all runs are launched in parallel.The number of concurrent runs is gated on the resources available in the specified compute target. )
+  - Need to ensure that the compute target has the available resources for the desired concurrency.
+* **Bandit Policy** :- It is based on the slack criteria, frequency and delay interval for evaluation.
+  - Slack_factor is the ratio used to calculate the allowed distance from the best performing experiment run.
+  - evaluation_interval, frequency for applying the policy.The main advantage is if we have a certain number of failures, HyperDrive will stop looking for the answers.
+
+Lastly, by submitting the hyperdrive run we need to get the best model the model with the tuned hyperparameters which gives the best accuracy score.The best value of the accuracy was found to be :- **0.90........\***
 
 ### Algorithm
 

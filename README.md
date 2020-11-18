@@ -66,8 +66,6 @@ Lastly, by submitting the hyperdrive run we need to get the best model the model
 
 ## Pipeline comparison
 
-**Compare the two models and their performance. What are the differences in accuracy? In architecture? If there was a difference, why do you think there was one?**
-
 ## Future work
 
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**

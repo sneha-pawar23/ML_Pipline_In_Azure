@@ -41,14 +41,16 @@ The above figure describes how to perform the problem statement in an effective 
   - Splitting dataset into training and testing set(80% training, 20% testing)
   - .fit method applies the logistic regression to the model and computes the accuracy score for the model.Files are saved in "./outputs/".
 
+#### To use HyperDrive to tune HyperParameter
+
+- **Select a sampling method** :- **RandomParameter Sampling** is used to randomly select a value for each hyperparameter, which can be a mix of discrete and continuous values.Here in code we need to search for parameter like "\__C" and "_ \_max_iter"
+- **PrimaryMetric Goal** :- It is used to determine whether a higher value for a metric is better or worse. In this experiment primary metric is **accuracy**.We can maximize or minimize for betterment of model.
+-
+
 ### Algorithm
 
 - Logistic Regression is a binary classification algorithm in which dependent variable is binary i,e
   1(True,Sucess),0(False,Failure). Goal is to find the best fitting model for independent and dependent variable in the relationship. Independent variable can be continous or binary, also called as **logit regression**, used in machine learning,deals with probability to measure the relation between dependent and independent variables.
-
-### benefits of the parameter sampler
-
-### benefits of the early stopping policy
 
 # AutoML
 

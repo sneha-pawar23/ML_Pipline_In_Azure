@@ -27,9 +27,19 @@ The above figure describes how to perform the problem statement in an effective 
 
 # Scikit-learn Pipeline
 
-### Pipeline architecture including data
+### Pipeline architecture including data, HyperParameter tuning and classification algorithm.
 
-- train.python scripts
+### Benefits of the parameter sampler.
+
+### Benefits of the early stopping policy.
+
+- train.python scripts performs several operations they are listed as follows :-
+  - It consists of import statements to load the libraries which we need to process in the experiment.
+  - Need to import the CSV file which contains the marketing campaigns data into a TabularDataFactory method.
+  - Cleans the data in clean_data() function method.
+  - clean_data() function includes handling missing values, dropping NaN values and also dropped irrelevant columns which is not needed for the experiment, one hot encoding for categorical features, loads data into pandas dataframe.
+  - Splitting dataset into training and testing set(80% training, 20% testing)
+  - .fit method applies the logistic regression to the model and computes the accuracy score for the model.Files are saved in "./outputs/".
 
 ### Algorithm
 

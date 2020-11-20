@@ -53,7 +53,7 @@ The above figure describes how to perform the problem statement in an effective 
   - Slack_factor is the ratio used to calculate the allowed distance from the best performing experiment run.
   - evaluation_interval, frequency for applying the policy.The main advantage is if we have a certain number of failures, HyperDrive will stop looking for the answers.
 
-Lastly, by submitting the hyperdrive run we need to get the best model the model with the tuned hyperparameters which gives the best accuracy score.The best value of the accuracy was found to be :- **0.90........\***
+Lastly, by submitting the hyperdrive run we need to get the best model the model with the tuned hyperparameters which gives the best accuracy score.The best value of the accuracy was found to be :- **0.9073**
 
 ### Algorithm
 
@@ -95,6 +95,9 @@ HyperDrive must have a custom coded machine learning model.Otherwise, HyperDrive
 
 AutoML doesn't require any of the above steps which has been performed by HyperDrive. In this experiment AutoML got slightly good accuracy score compared to HyperDrive model. As AutoML evaluates lots of different algorithm and create a pipeline on its own to give the best fit model for the dataset without manual effort.
 
+- using HyperDrive: accuracy score = 0.9073
+- AutoMl: accuracy score = 0.91502 (MaxAbsScaler, XGBoostClassifier)
+
 # Future work
 
 - We can consider different sampling parameters for example:- Bayesian sampling or Grid sampling for improving accuracy.
@@ -102,3 +105,5 @@ AutoML doesn't require any of the above steps which has been performed by HyperD
 - By improving metics
 
 # References
+
+- understanding of sampling methods [sampling](https://www.analyticsvidhya.com/blog/2019/09/data-scientists-guide-8-types-of-sampling-techniques/)

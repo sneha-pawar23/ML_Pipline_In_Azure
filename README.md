@@ -1,12 +1,12 @@
-# Optimizing an ML Pipeline in Azure
+# :star: Optimizing an ML Pipeline in Azure
 
-# Overview
+# :star: Overview
 
 This project is part of the Udacity Azure ML Nanodegree.
 In this project, we build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
 
-# Summary
+# :star: Summary
 
 ### **Problem Statement**
 
@@ -17,7 +17,7 @@ The dataset describes about the marketing campagins for a bank, which consists o
 - Other (**attributes** :- campaign, Pdays, previous, poutcome)
   - **y** is the desired target, where we need to know whether client subscribed the term deposit or not (**yes** or **no**) . The dataset contains 32950 training data in CSV file and its a classification problem.
 
-### **Solution for the problem statement**
+### :star: **Solution for the problem statement**
 
 ![Optimizing_ML_Pipeline](azure_pipeline.png)
 The above figure describes how to perform the problem statement in an effective way, there are two ways of approaching the problem:-
@@ -25,7 +25,7 @@ The above figure describes how to perform the problem statement in an effective 
 - To optimize the hyper parameter of custom coded model using a tool called **HyperDrive**. HyperDrive will help us to find the best parameter to the model compared to manual Hyperparameter tuning.
 - **AutoML** which helps us to choose the best algorithm, which evaluates the different pipelines on its own and help us to find the best optimal solution in a faster way.
 
-# Scikit-learn Pipeline
+# :star: Scikit-learn Pipeline
 
 ### Pipeline architecture including data, HyperParameter tuning and classification algorithm.
 
@@ -60,7 +60,7 @@ Lastly, by submitting the hyperdrive run we need to get the best model the model
 - Logistic Regression is a binary classification algorithm in which dependent variable is binary i,e
   1(True,Sucess),0(False,Failure). Goal is to find the best fitting model for independent and dependent variable in the relationship. Independent variable can be continous or binary, also called as **logit regression**, used in machine learning,deals with probability to measure the relation between dependent and independent variables.
 
-# AutoML
+# :star: AutoML
 
 - Importing the csv file containing the marketing campaigns data into TabularDatasetFactory method.
 - Importing "clean" function from train.python file to clean the dataset.
@@ -77,7 +77,7 @@ Lastly, by submitting the hyperdrive run we need to get the best model the model
 - Submitting the AutoML config.
 - Finding the best run then saving the model.
 
-# Pipeline comparison
+# :star: Pipeline comparison
 
 As we know that the above problem statement has two approachs :-
 

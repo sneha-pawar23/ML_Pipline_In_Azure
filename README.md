@@ -17,7 +17,7 @@ The dataset describes about the marketing campagins for a bank, which consists o
 - Other (**attributes** :- campaign, Pdays, previous, poutcome)
   - **y** is the desired target, where we need to know whether client subscribed the term deposit or not (**yes** or **no**) . The dataset contains 32950 training data in CSV file and its a classification problem.
 
-### :star: **Solution for the problem statement**
+### **Solution for the problem statement**
 
 ![Optimizing_ML_Pipeline](azure_pipeline.png)
 The above figure describes how to perform the problem statement in an effective way, there are two ways of approaching the problem:-
@@ -98,12 +98,12 @@ AutoML doesn't require any of the above steps which has been performed by HyperD
 - using HyperDrive: accuracy score = 0.9073
 - AutoMl: accuracy score = 0.91502 (MaxAbsScaler, XGBoostClassifier)
 
-# Future work
+# :star: Future work
 
 - We can consider different sampling parameters for example:- Bayesian sampling or Grid sampling for improving accuracy.
 - By experimenting with different termination policy. In some sampling method we can prefer not using early termination policy if dataset is not too large.
 - By improving metics
 
-# References
+# :star: References
 
 - understanding of sampling methods [sampling](https://www.analyticsvidhya.com/blog/2019/09/data-scientists-guide-8-types-of-sampling-techniques/)
